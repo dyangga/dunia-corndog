@@ -1,0 +1,23 @@
+--- a/dist/runtime/components.js	
++++ b/dist/runtime/components.js	
+@@ -30,12 +30,8 @@
+     ListHeaderComponentClassName: "ListHeaderComponentStyle",
+     columnWrapperClassName: "columnWrapperStyle",
+     contentContainerClassName: "contentContainerStyle",
+ });
+-(0, api_1.remapProps)(react_native_1.ImageBackground, {
+-    className: "style",
+-    imageClassName: "imageStyle",
+-});
+ (0, api_1.remapProps)(react_native_1.KeyboardAvoidingView, {
+     className: "style",
+     contentContainerClassName: "contentContainerStyle",
+ });
+@@ -51,5 +47,5 @@
+         className: "style",
+     });
+ }
+ catch { }
+-//# sourceMappingURL=components.js.map
+\ No newline at end of file
++//# sourceMappingURL=components.js.map

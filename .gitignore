@@ -1,0 +1,17 @@
+node_modules
+.next
+.env*.local
+*.tsbuildinfo
+.taste-skill/chrome-*/
+.taste-skill/
+**/android/app/debug.keystore
+
+.env
+.env.*
+!.env.example
+**/dist/
+**/.expo/
+**/node_modules/
+**/.next/
+**/coverage/
+/artifacts/

@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Dunia Corndog Kasir",
+    "slug": "dunia-corndog-kasir",
+    "version": "0.1.0",
+    "scheme": "duniacorndog",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "id.duniacorndog.kasir"
+    },
+    "android": {
+      "package": "id.duniacorndog.kasir"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
